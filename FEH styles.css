@@ -1,0 +1,53 @@
+body {									/* body of pages (just background style for now)  */
+		background-image: url("https://cdn.pixabay.com/photo/2017/07/03/06/40/rain-2466803_960_720.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	form {								/* for signin and signup page */
+		text-align: center;
+		background:rgba(0,0,0,0.5);
+		width: 500px;
+		margin: auto; 					/* centers form box in middle of page */
+		padding-top: 100px;				/* moves form down the page */	
+		background-clip: content-box; 	/* padded area is not background colored as well */
+		padding-bottom: 20px;			/* padding below form when browser is minimized */
+	}	
+	
+	.name {								/* signin/signup name textfield */
+		width: 180px;
+		border-radius: 5px;
+	}
+	
+	.email, .username, .password {		/* textfields in signin/signup page */
+		width: 360px;
+		border-radius: 5px;
+	}
+	
+	fieldset {							/* line surrounded form */
+		border: 2px groove;
+		width: 500px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	
+	hr.hrDesign {						/* horizontal line below and above heading on signin/signup page */
+		background-color: white;		/* horizontal line color */
+		padding-bottom:10px !important!;/* overrides default line padding */
+	}
+	
+	#signHeader {
+		color: white;
+	}	
+		
+	.alreadymessage {					/* text below signin/signup page */
+		color: white;
+		padding-top: 10px;
+		margin-top: 5px;
+	}
+	
+	#signClickHere {
+		color: #42aaf4;
+	}	
+	
